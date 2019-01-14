@@ -1,0 +1,30 @@
+{
+    "name": "pollus/view-interface",
+    "description": "View interface for Pollus Framework",
+    "keywords": ["php", "view", "pollus"],
+    "license": "MIT",
+    "authors": 
+    [
+        {
+            "name": "Renan Cavalieri",
+            "email": "renan@tecdicas.com"
+        }
+    ],
+    "type": "library",
+    "require": 
+    {
+        "php": ">=7.2",
+        "psr/http-message": "^1.0.0"
+    },
+    "require-dev": 
+    {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": 
+	{
+        "psr-4": 
+        {
+            "Pollus\\ViewInterface\\": "src/"
+        }
+    }
+}
